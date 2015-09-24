@@ -1,0 +1,26 @@
+{
+  "name": "Foundography",
+  "version": "1.0.0",
+  "authors": [
+    "petrero"
+  ],
+  "description": "photo gallery with sass and foundation",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "photo",
+    "gallery",
+    "foundation",
+    "sass"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
