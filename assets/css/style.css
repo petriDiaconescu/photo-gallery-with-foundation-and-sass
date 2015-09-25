@@ -6509,6 +6509,12 @@ body {
   width: 100%;
   float: left; }
 
+.top-banner {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left; }
+
 @media only screen and (min-width: 40.0625em) {
   body {
     background-color: #fafafa; }

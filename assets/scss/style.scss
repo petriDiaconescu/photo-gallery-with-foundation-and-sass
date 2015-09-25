@@ -36,6 +36,9 @@ body {
   @include grid-column(12);
 }
 
+.top-banner {
+  @include grid-column(12);
+}
 
 @media #{$medium-up} {
   body {
