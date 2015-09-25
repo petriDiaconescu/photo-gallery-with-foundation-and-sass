@@ -422,13 +422,13 @@ body {
   font-size: 100%; }
 
 body {
-  background: #fff;
-  color: #222;
+  background: #FFFFFF;
+  color: #222222;
   cursor: auto;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
-  line-height: 1.5;
+  line-height: 150%;
   margin: 0;
   padding: 0;
   position: relative; }
@@ -1352,7 +1352,7 @@ select {
     line-height: .9;
     margin-top: -0.6875rem;
     opacity: 0.3;
-    padding: 0 6px 4px;
+    padding: 9px 6px 4px;
     position: absolute;
     top: 50%; }
     .alert-box .close:hover, .alert-box .close:focus {
@@ -2852,7 +2852,7 @@ label {
   font-size: 0.875rem;
   height: 2.3125rem;
   line-height: 2.3125rem;
-  overflow: visible;
+  overflow: hidden;
   padding-bottom: 0;
   padding-top: 0;
   position: relative;
@@ -4196,7 +4196,7 @@ ul.pagination {
   z-index: 1005;
   left: 0;
   background-color: #FFFFFF;
-  padding: 1.875rem;
+  padding: 1.25rem;
   border: solid 1px #666666;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); }
   @media only screen and (max-width: 40em) {
@@ -4316,7 +4316,7 @@ ul.pagination {
       height: 0;
       list-style: none;
       padding: 0;
-      border-top-color: #e6e6e6; }
+      border-top-color: white; }
     .side-nav li.heading {
       color: #008CBA;
       font-size: 0.875rem;
@@ -5602,7 +5602,7 @@ abbr,
 acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #222;
+  color: #222222;
   cursor: help; }
 
 abbr {
