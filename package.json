@@ -1,0 +1,25 @@
+{
+  "name": "Foundography",
+  "version": "1.0.0",
+  "description": "photo gallery with foundation and sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/petriDiaconescu/photo-gallery-with-foundation-and-sass.git"
+  },
+  "keywords": [
+    "photo",
+    "gallery",
+    "foundation",
+    "sass"
+  ],
+  "author": "petrero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petriDiaconescu/photo-gallery-with-foundation-and-sass/issues"
+  },
+  "homepage": "https://github.com/petriDiaconescu/photo-gallery-with-foundation-and-sass"
+}
