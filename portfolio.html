@@ -55,30 +55,41 @@ and open the template in the editor.
           </ul>
         </aside>
         
-        <div id="header">
-          <div class="top-banner">
-            <img data-interchange="[http://placehold.it/640x264, (default)],
-                                   [http://placehold.it/1023x421, (medium)],
-                                   [http://placehold.it/1280x527, (large)]" />
+        <section class="main-section">
+          
+          <div data-magellan-expedition="fixed">
+            <dl class="sub-nav">
+              <dd data-magellan-arrival="portrait">
+                <a href="#portrait">Portrait</a>
+              </dd>
+              <dd data-magellan-arrival="landscape">
+                <a href="#landscape">Landscape</a>
+              </dd>
+              <dd data-magellan-arrival="still">
+                <a href="#still">Still</a>
+              </dd>
+            </dl>
           </div>
-          <div class="welcome-box">
-            <h1 id="welcome">Welcome to Foundography</h1>
+          
+          <div>
+            <a name="portrait" data-magellan-destination="portrait"></a>
+            <hr />
+            <img src="http://placehold.it/1000x800" />
           </div>
-        </div>
-        <div id="main">
-          <div class="top-image">
-            <img src="http://placehold.it/300x300" alt="" />
+          
+          <div>
+            <a name="landscape" data-magellan-destination="landscape"></a>
+            <hr />
+            <img src="http://placehold.it/1000x800" />
           </div>
-          <div class="top-image">
-            <img src="http://placehold.it/300x300" alt="" />
+          
+          <div>
+            <a name="still" data-magellan-destination="still"></a>
+            <hr />
+            <img src="http://placehold.it/1000x800" />
           </div>
-          <div class="top-image">
-            <img src="http://placehold.it/300x300" alt="" />
-          </div>
-          <div class="top-image">
-            <img src="http://placehold.it/300x300" alt="" />
-          </div>
-        </div>
+            
+        </section>  
       </div>  
     </div>  
     <script type="text/javascript" src="assets/js/jquery.min.js"></script>
