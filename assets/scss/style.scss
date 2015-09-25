@@ -11,3 +11,13 @@ and open the template in the editor.
 @import 'config';
 @import 'normalize';
 @import 'foundation';
+
+@media #{$small-only} {
+  body {
+    background-color: #222;
+  }
+  
+  #welcome {
+    color: #FAFAFA;
+  }
+}
