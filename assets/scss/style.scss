@@ -13,15 +13,6 @@ and open the template in the editor.
 @import 'foundation';
 
 
-body {
-    background-color: #222;
-  }
-  
-  #welcome {
-    color: #FAFAFA;
-  }
-
-
 #header,
 #main {
   @include grid-row();
@@ -48,17 +39,32 @@ body {
   @extend .hide-for-small-only;
 }
 
+.services {
+  @include grid-row;
+}
+
+.services.navigation {
+  @include grid-column(3);
+  @extend .hide-for-small;
+}
+
+.services.navigation.list {
+  @include side-nav;
+}
+
+.services.content {
+  @include grid-column(12);
+}
+
+
 @media #{$medium-up} {
-  body {
-    background-color: #fafafa;
-  }
-  
-  #welcome {
-    color: #222;
-  }
   
   .top-image {
     @include grid-column(6);
+  }
+  
+  .services.content {
+    @include grid-column(9);
   }
 }
 
