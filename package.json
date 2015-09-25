@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/petriDiaconescu/photo-gallery-with-foundation-and-sass/issues"
   },
-  "homepage": "https://github.com/petriDiaconescu/photo-gallery-with-foundation-and-sass"
+  "homepage": "https://github.com/petriDiaconescu/photo-gallery-with-foundation-and-sass",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-sass": "^1.1.0-beta"
+  }
 }
