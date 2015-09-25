@@ -12,6 +12,22 @@ and open the template in the editor.
 @import 'normalize';
 @import 'foundation';
 
+
+#header,
+#main {
+  @include grid-row();
+}
+
+.welcome-box {
+  @include grid-column(12);
+}
+
+
+.top-image {
+  @include grid-column(3);
+}
+
+
 @media #{$small-only} {
   body {
     background-color: #222;
@@ -19,5 +35,15 @@ and open the template in the editor.
   
   #welcome {
     color: #FAFAFA;
+  }
+  
+  .top-image {
+    @include grid-column(12);
+  }
+}
+
+@media #{$medium-only} {
+  .top-image {
+    @include grid-column(6);
   }
 }
