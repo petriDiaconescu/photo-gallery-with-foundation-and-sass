@@ -56,6 +56,9 @@ and open the template in the editor.
   @include grid-column(12);
 }
 
+.contacts {
+  @include grid-row;
+}
 
 @media #{$medium-up} {
   
