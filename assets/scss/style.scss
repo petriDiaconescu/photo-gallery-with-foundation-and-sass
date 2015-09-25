@@ -40,6 +40,10 @@ body {
   @include grid-column(12);
 }
 
+#top-bar {
+  @extend .hide-for-medium-up;
+}
+
 @media #{$medium-up} {
   body {
     background-color: #fafafa;
