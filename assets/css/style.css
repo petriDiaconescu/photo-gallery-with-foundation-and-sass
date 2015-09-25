@@ -6622,6 +6622,37 @@ th.hide-for-touch {
   .about:after {
     clear: both; }
 
+#portrait,
+#landscape,
+#still {
+  margin: 0 auto;
+  max-width: 62.5rem;
+  width: 100%; }
+  #portrait:before, #portrait:after,
+  #landscape:before,
+  #landscape:after,
+  #still:before,
+  #still:after {
+    content: " ";
+    display: table; }
+  #portrait:after,
+  #landscape:after,
+  #still:after {
+    clear: both; }
+
+.portfolio.thumbnail {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+  border: solid 4px #FFFFFF;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  line-height: 0;
+  max-width: 100%; }
+  .portfolio.thumbnail:hover, .portfolio.thumbnail:focus {
+    box-shadow: 0 0 6px 1px rgba(0, 140, 186, 0.5); }
+
 @media only screen and (min-width: 40.0625em) {
   .top-image {
     padding-left: 0.9375rem;
@@ -6632,6 +6663,11 @@ th.hide-for-touch {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 75%;
+    float: left; }
+  .portfolio.thumbnail {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 50%;
     float: left; } }
 
 @media only screen and (min-width: 64.0625em) {
@@ -6644,6 +6680,11 @@ th.hide-for-touch {
     padding-left: 0;
     padding-right: 0;
     width: 33.3333333333%;
+    float: left; }
+  .portfolio.thumbnail {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 25%;
     float: left; } }
 
 /*# sourceMappingURL=style.css.map */
