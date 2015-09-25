@@ -97,6 +97,14 @@ and open the template in the editor.
   }
 }
 
+.grid.gallery {
+  @include block-grid(1);
+}
+
+.grid.gallery li a {
+  @include thumb;
+}
+
 @media #{$medium-up} {
   
   .top-image {
@@ -109,6 +117,10 @@ and open the template in the editor.
   
   .portfolio.thumbnail {
     @include grid-column(6);
+  }
+  
+  .grid.gallery {
+    @include block-grid(2);
   }
 }
 
@@ -127,4 +139,9 @@ and open the template in the editor.
   .portfolio.thumbnail {
     @include grid-column(3);
   }
+  
+  .grid.gallery {
+      @include block-grid(3);
+    }
+
 }

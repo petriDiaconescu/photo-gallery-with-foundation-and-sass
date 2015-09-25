@@ -6655,6 +6655,38 @@ th.hide-for-touch {
   .portfolio.thumbnail img {
     min-width: 100%; }
 
+.grid.gallery {
+  display: block;
+  padding: 0;
+  margin: 0 -0.625rem; }
+  .grid.gallery:before, .grid.gallery:after {
+    content: " ";
+    display: table; }
+  .grid.gallery:after {
+    clear: both; }
+  .grid.gallery > li {
+    display: block;
+    float: left;
+    height: auto;
+    padding: 0 0.625rem 1.25rem; }
+  .grid.gallery > li {
+    list-style: none;
+    padding: 0 0.625rem 1.25rem;
+    width: 100%; }
+    .grid.gallery > li:nth-of-type(1n) {
+      clear: none; }
+    .grid.gallery > li:nth-of-type(1n+1) {
+      clear: both; }
+
+.grid.gallery li a {
+  border: solid 4px #FFFFFF;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  line-height: 0;
+  max-width: 100%; }
+  .grid.gallery li a:hover, .grid.gallery li a:focus {
+    box-shadow: 0 0 6px 1px rgba(0, 140, 186, 0.5); }
+
 @media only screen and (min-width: 40.0625em) {
   .top-image {
     padding-left: 0.9375rem;
@@ -6670,7 +6702,29 @@ th.hide-for-touch {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 50%;
-    float: left; } }
+    float: left; }
+  .grid.gallery {
+    display: block;
+    padding: 0;
+    margin: 0 -0.625rem; }
+    .grid.gallery:before, .grid.gallery:after {
+      content: " ";
+      display: table; }
+    .grid.gallery:after {
+      clear: both; }
+    .grid.gallery > li {
+      display: block;
+      float: left;
+      height: auto;
+      padding: 0 0.625rem 1.25rem; }
+    .grid.gallery > li {
+      list-style: none;
+      padding: 0 0.625rem 1.25rem;
+      width: 50%; }
+      .grid.gallery > li:nth-of-type(1n) {
+        clear: none; }
+      .grid.gallery > li:nth-of-type(2n+1) {
+        clear: both; } }
 
 @media only screen and (min-width: 64.0625em) {
   .top-image {
@@ -6687,6 +6741,28 @@ th.hide-for-touch {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 25%;
-    float: left; } }
+    float: left; }
+  .grid.gallery {
+    display: block;
+    padding: 0;
+    margin: 0 -0.625rem; }
+    .grid.gallery:before, .grid.gallery:after {
+      content: " ";
+      display: table; }
+    .grid.gallery:after {
+      clear: both; }
+    .grid.gallery > li {
+      display: block;
+      float: left;
+      height: auto;
+      padding: 0 0.625rem 1.25rem; }
+    .grid.gallery > li {
+      list-style: none;
+      padding: 0 0.625rem 1.25rem;
+      width: 33.3333333333%; }
+      .grid.gallery > li:nth-of-type(1n) {
+        clear: none; }
+      .grid.gallery > li:nth-of-type(3n+1) {
+        clear: both; } }
 
 /*# sourceMappingURL=style.css.map */
