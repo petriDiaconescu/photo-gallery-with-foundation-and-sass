@@ -105,6 +105,11 @@ and open the template in the editor.
   @include thumb;
 }
 
+.videobox {
+  @include flex-video-container;
+}
+
+
 @media #{$medium-up} {
   
   .top-image {

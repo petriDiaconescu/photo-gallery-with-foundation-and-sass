@@ -6687,6 +6687,27 @@ th.hide-for-touch {
   .grid.gallery li a:hover, .grid.gallery li a:focus {
     box-shadow: 0 0 6px 1px rgba(0, 140, 186, 0.5); }
 
+.videobox {
+  height: 0;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  padding-bottom: 67.5%;
+  padding-top: 1.5625rem;
+  position: relative; }
+  .videobox.widescreen {
+    padding-bottom: 56.34%; }
+  .videobox.vimeo {
+    padding-top: 0; }
+  .videobox iframe,
+  .videobox object,
+  .videobox embed,
+  .videobox video {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0; }
+
 @media only screen and (min-width: 40.0625em) {
   .top-image {
     padding-left: 0.9375rem;
