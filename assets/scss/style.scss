@@ -63,6 +63,18 @@ and open the template in the editor.
   );
 }
 
+.services.corporate {
+  @include accordion-container;
+  
+  .services.corporate.title {
+    @include accordion-navigation;
+  }
+  
+  .services.corporate.content {
+    @include accordion-content;
+  }
+}
+
 .contacts {
   @include grid-row;
 }
