@@ -6477,6 +6477,12 @@ th.hide-for-touch {
   .show-for-print {
     display: none !important; } }
 
+body {
+  background-color: #222; }
+
+#welcome {
+  color: #FAFAFA; }
+
 #header,
 #main {
   margin: 0 auto;
@@ -6500,25 +6506,25 @@ th.hide-for-touch {
 .top-image {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
-  width: 25%;
+  width: 100%;
   float: left; }
 
-@media only screen and (max-width: 40em) {
+@media only screen and (min-width: 40.0625em) {
   body {
-    background-color: #222; }
+    background-color: #fafafa; }
   #welcome {
-    color: #FAFAFA; }
-  .top-image {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    width: 100%;
-    float: left; } }
-
-@media only screen and (min-width: 40.0625em) and (max-width: 64em) {
+    color: #222; }
   .top-image {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 50%;
+    float: left; } }
+
+@media only screen and (min-width: 64.0625em) {
+  .top-image {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 25%;
     float: left; } }
 
 /*# sourceMappingURL=style.css.map */
