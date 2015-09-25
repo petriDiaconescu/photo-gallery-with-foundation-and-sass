@@ -44,6 +44,10 @@ body {
   @extend .hide-for-medium-up;
 }
 
+#desktop-top-bar {
+  @extend .hide-for-small-only;
+}
+
 @media #{$medium-up} {
   body {
     background-color: #fafafa;
