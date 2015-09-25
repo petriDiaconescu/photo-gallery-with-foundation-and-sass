@@ -6568,6 +6568,12 @@ th.hide-for-touch {
   width: 100%;
   float: left; }
 
+.services.pricing-table {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+  float: left; }
+
 .contacts {
   margin: 0 auto;
   max-width: 62.5rem;
@@ -6605,6 +6611,11 @@ th.hide-for-touch {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 25%;
+    float: left; }
+  .services.pricing-table {
+    padding-left: 0;
+    padding-right: 0;
+    width: 33.3333333333%;
     float: left; } }
 
 /*# sourceMappingURL=style.css.map */

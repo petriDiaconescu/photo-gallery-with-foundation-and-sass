@@ -56,6 +56,13 @@ and open the template in the editor.
   @include grid-column(12);
 }
 
+.services.pricing-table {
+  @include grid-column(
+    $columns: 12,
+    $collapse: true 
+  );
+}
+
 .contacts {
   @include grid-row;
 }
@@ -78,5 +85,12 @@ and open the template in the editor.
 @media #{$large-up} {
   .top-image {
     @include grid-column(3);
+  }
+  
+  .services.pricing-table {  
+    @include grid-column(
+       $columns: 4,
+       $collapse: true
+    )
   }
 }
