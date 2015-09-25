@@ -6578,6 +6578,16 @@ th.hide-for-touch {
   .contacts:after {
     clear: both; }
 
+.about {
+  margin: 0 auto;
+  max-width: 62.5rem;
+  width: 100%; }
+  .about:before, .about:after {
+    content: " ";
+    display: table; }
+  .about:after {
+    clear: both; }
+
 @media only screen and (min-width: 40.0625em) {
   .top-image {
     padding-left: 0.9375rem;

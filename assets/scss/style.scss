@@ -60,6 +60,10 @@ and open the template in the editor.
   @include grid-row;
 }
 
+.about {
+  @include grid-row;
+}
+
 @media #{$medium-up} {
   
   .top-image {
