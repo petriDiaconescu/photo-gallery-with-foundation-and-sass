@@ -146,6 +146,10 @@ and open the template in the editor.
   }
 }
 
+.breadcrumbs {
+  @include grid-row;
+}
+
 #portrait,
 #landscape,
 #still {

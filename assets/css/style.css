@@ -6873,6 +6873,16 @@ th.hide-for-touch {
       .about.menu > li a:hover, .about.menu > li a:focus {
         color: #FFFFFF; }
 
+.breadcrumbs {
+  margin: 0 auto;
+  max-width: 62.5rem;
+  width: 100%; }
+  .breadcrumbs:before, .breadcrumbs:after {
+    content: " ";
+    display: table; }
+  .breadcrumbs:after {
+    clear: both; }
+
 #portrait,
 #landscape,
 #still {
