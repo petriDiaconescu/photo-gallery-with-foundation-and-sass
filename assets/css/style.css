@@ -6605,6 +6605,26 @@ th.hide-for-touch {
       background: #FFFFFF;
       display: block; }
 
+.deal {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d8d8d8;
+  margin-bottom: 1.25rem;
+  padding: 1.25rem;
+  background: orange;
+  color: #333333; }
+  .deal > :first-child {
+    margin-top: 0; }
+  .deal > :last-child {
+    margin-bottom: 0; }
+  .deal h1, .deal h2, .deal h3, .deal h4, .deal h5, .deal h6, .deal p, .deal li, .deal dl {
+    color: #333333; }
+  .deal h1, .deal h2, .deal h3, .deal h4, .deal h5, .deal h6 {
+    line-height: 1;
+    margin-bottom: 0.625rem; }
+    .deal h1.subheader, .deal h2.subheader, .deal h3.subheader, .deal h4.subheader, .deal h5.subheader, .deal h6.subheader {
+      line-height: 1.4; }
+
 .contacts {
   margin: 0 auto;
   max-width: 62.5rem;

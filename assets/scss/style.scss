@@ -76,6 +76,10 @@ and open the template in the editor.
   }
 }
 
+.deal {
+  @include panel($bg: orange);
+}
+
 .contacts {
   @include grid-row;
 }
