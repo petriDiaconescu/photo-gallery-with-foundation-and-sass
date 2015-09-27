@@ -80,6 +80,26 @@ and open the template in the editor.
   @include grid-row;
 }
 
+.contact.form.line {
+  @include grid-row;
+}
+
+.contact.form.line .mail {
+  @include grid-column(8);
+}
+
+.contact.form.line .type {
+  @include grid-column(4);
+}
+
+.contact.form.line .message {
+  @include grid-column(12);
+}
+
+.contact.form.line .submit {
+  @include grid-column(12);
+}
+
 .about {
   @include grid-row;
 }

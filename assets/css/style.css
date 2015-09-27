@@ -6615,6 +6615,40 @@ th.hide-for-touch {
   .contacts:after {
     clear: both; }
 
+.contact.form.line {
+  margin: 0 auto;
+  max-width: 62.5rem;
+  width: 100%; }
+  .contact.form.line:before, .contact.form.line:after {
+    content: " ";
+    display: table; }
+  .contact.form.line:after {
+    clear: both; }
+
+.contact.form.line .mail {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 66.6666666667%;
+  float: left; }
+
+.contact.form.line .type {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 33.3333333333%;
+  float: left; }
+
+.contact.form.line .message {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left; }
+
+.contact.form.line .submit {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left; }
+
 .about {
   margin: 0 auto;
   max-width: 62.5rem;
