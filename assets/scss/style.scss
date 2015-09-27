@@ -129,6 +129,19 @@ and open the template in the editor.
   @include grid-row;
 }
 
+.about.menu {
+  @include button-group-container;
+  @include grid-row;
+  
+  &>li {
+    @include button-group-style($even: 3);
+    
+    a {
+      @include button($full-width: true);
+    }
+  }
+}
+
 #portrait,
 #landscape,
 #still {

@@ -6794,6 +6794,65 @@ th.hide-for-touch {
   .about:after {
     clear: both; }
 
+.about.menu {
+  list-style: none;
+  margin: 0;
+  left: 0;
+  margin: 0 auto;
+  max-width: 62.5rem;
+  width: 100%; }
+  .about.menu:before, .about.menu:after {
+    content: " ";
+    display: table; }
+  .about.menu:after {
+    clear: both; }
+  .about.menu:before, .about.menu:after {
+    content: " ";
+    display: table; }
+  .about.menu:after {
+    clear: both; }
+  .about.menu > li {
+    display: inline-block;
+    margin: 0 -2px;
+    width: 33.3333333333%; }
+    .about.menu > li > button, .about.menu > li .button {
+      border-left: 1px solid;
+      border-color: rgba(255, 255, 255, 0.5); }
+    .about.menu > li:first-child button, .about.menu > li:first-child .button {
+      border-left: 0; }
+    .about.menu > li button, .about.menu > li .button {
+      width: 100%; }
+    .about.menu > li a {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      border-radius: 0;
+      border-style: solid;
+      border-width: 0;
+      cursor: pointer;
+      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-weight: normal;
+      line-height: normal;
+      margin: 0 0 1.25rem;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      padding: 1rem 2rem 1.0625rem 2rem;
+      font-size: 1rem;
+      padding-bottom: 1.0625rem;
+      padding-top: 1rem;
+      padding-left: 0;
+      padding-right: 0;
+      width: 100%;
+      background-color: #008CBA;
+      border-color: #007095;
+      color: #FFFFFF;
+      transition: background-color 300ms ease-out; }
+      .about.menu > li a:hover, .about.menu > li a:focus {
+        background-color: #007095; }
+      .about.menu > li a:hover, .about.menu > li a:focus {
+        color: #FFFFFF; }
+
 #portrait,
 #landscape,
 #still {
