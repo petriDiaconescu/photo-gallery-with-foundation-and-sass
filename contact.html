@@ -86,7 +86,11 @@ and open the template in the editor.
                 
                   <div class="contact form line">
                     <div class="mail">
-                      <span class="mail-label">email:</span>
+                      <span class="mail-label"
+                        data-tooltip
+                        aria-has-popup="true"
+                        class="has-tip"
+                        title="Insert your email address">email:</span>
                       <input type="email" class="mail-field" required/>
                       <small class="error">Please insert a valid email address</small>
                     </div>
@@ -96,13 +100,23 @@ and open the template in the editor.
                         <option value>Information</option>
                         <option value>Suggestion</option>
                       </select>
-                      <span class="type-label">type:</span>
+                      <span class="type-label"
+                        data-tooltip
+                        aria-has-popup="true"
+                        class="has-tip"
+                        title="Why are you writing us?">type:</span>
                     </div>
                   </div>
                   <div class="contact form line">
                     <div class="message">
-                      <label>message:
-                        <textarea required>writge your message...</textarea>
+                      <label>
+                        <span
+                          data-tooltip
+                          aria-has-popup="true"
+                          class="has-tip"
+                          title="So... what's up">message:
+                          <textarea required>writge your message...</textarea>
+                        </span>
                       </label>
                       <small class="error">Please write here a message</small>
                     </div>
