@@ -80,14 +80,15 @@ and open the template in the editor.
               </iframe>
             </div>
             <div class="contacts tab content" id="contact-us">
-              <form>
+              <form data-abide>
                 <fieldset>
                   <legend>Get in touch!</legend>
                 
                   <div class="contact form line">
                     <div class="mail">
                       <span class="mail-label">email:</span>
-                      <input type="email" class="mail-field"/>
+                      <input type="email" class="mail-field" required/>
+                      <small class="error">Please insert a valid email address</small>
                     </div>
                     <div class="type">
                       <select class="type-select">
@@ -101,8 +102,9 @@ and open the template in the editor.
                   <div class="contact form line">
                     <div class="message">
                       <label>message:
-                        <textarea>writge your message...</textarea>
+                        <textarea required>writge your message...</textarea>
                       </label>
+                      <small class="error">Please write here a message</small>
                     </div>
                   </div>
                   <div class="contact form line">
