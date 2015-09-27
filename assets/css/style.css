@@ -6624,6 +6624,60 @@ th.hide-for-touch {
     display: table; }
   .contact.form.line:after {
     clear: both; }
+  .contact.form.line .mail-label {
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    font-size: 0.875rem;
+    height: 2.3125rem;
+    line-height: 2.3125rem;
+    overflow: hidden;
+    padding-bottom: 0;
+    padding-top: 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+    background: #f2f2f2;
+    border-right: none;
+    color: #333333;
+    border-color: #cccccc;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 25%;
+    float: left; }
+  .contact.form.line .mail-field {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 75%;
+    float: left; }
+  .contact.form.line .type-label {
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    font-size: 0.875rem;
+    height: 2.3125rem;
+    line-height: 2.3125rem;
+    overflow: hidden;
+    padding-bottom: 0;
+    padding-top: 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+    background: #f2f2f2;
+    border-right: none;
+    color: #333333;
+    border-color: #cccccc;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 25%;
+    float: left; }
+  .contact.form.line .type-select {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 75%;
+    float: left; }
 
 .contact.form.line .mail {
   padding-left: 0.9375rem;

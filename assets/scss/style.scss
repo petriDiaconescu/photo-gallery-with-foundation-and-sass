@@ -82,11 +82,33 @@ and open the template in the editor.
 
 .contact.form.line {
   @include grid-row;
+  
+  .mail-label {
+    @include prefix-postfix-base;
+    @include prefix;
+    @include grid-column(3);
+  }
+  
+  .mail-field {
+    @include grid-column(9);
+  }
+  
+  .type-label {
+    @include prefix-postfix-base;
+    @include prefix;
+    @include grid-column(3);
+  }
+  
+  .type-select {
+    @include grid-column(9);
+  }
 }
 
 .contact.form.line .mail {
   @include grid-column(8);
 }
+
+
 
 .contact.form.line .type {
   @include grid-column(4);

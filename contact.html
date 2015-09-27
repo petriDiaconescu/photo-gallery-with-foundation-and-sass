@@ -81,34 +81,36 @@ and open the template in the editor.
             </div>
             <div class="contacts tab content" id="contact-us">
               <form>
-                <div class="contact form line">
-                  <div class="mail">
-                    <label>email:
-                      <input type="email" />
-                    </label>
-                  </div>
-                  <div class="type">
-                    <label>type:
-                      <select>
+                <fieldset>
+                  <legend>Get in touch!</legend>
+                
+                  <div class="contact form line">
+                    <div class="mail">
+                      <span class="mail-label">email:</span>
+                      <input type="email" class="mail-field"/>
+                    </div>
+                    <div class="type">
+                      <select class="type-select">
                         <option value>Quote</option>
                         <option value>Information</option>
                         <option value>Suggestion</option>
                       </select>
-                    </label>
+                      <span class="type-label">type:</span>
+                    </div>
                   </div>
-                </div>
-                <div class="contact form line">
-                  <div class="message">
-                    <label>message:
-                      <textarea>writge your message...</textarea>
-                    </label>
+                  <div class="contact form line">
+                    <div class="message">
+                      <label>message:
+                        <textarea>writge your message...</textarea>
+                      </label>
+                    </div>
                   </div>
-                </div>
-                <div class="contact form line">
-                  <div class="submit">
-                    <input type="submit" class="button" />
+                  <div class="contact form line">
+                    <div class="submit">
+                      <input type="submit" class="button" />
+                    </div>
                   </div>
-                </div>
+                </fieldset>  
               </form>
             </div>
           </div>
