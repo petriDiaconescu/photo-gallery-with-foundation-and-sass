@@ -124,7 +124,16 @@ and open the template in the editor.
                     <input type="radio" id="no" name="like" />
                     <label for="no">no</label>
                   </div>
-                  
+                  <h4>How much you'd pay for a photo shooting?</h4>
+                  <div class="range-slider" 
+                    data-slider
+                    data-options="display_selector: #sliderOutput;
+                                  start: 400;
+                                  end: 3000;">
+                    <span class="range-slider-handle"></span>
+                    <span class="range-slider-active-segment"></span>
+                  </div>
+                  <span id="sliderOutput"></span>&euro;
                 </fieldset>
               </form>
             </div>
@@ -136,8 +145,13 @@ and open the template in the editor.
     <script type="text/javascript" src="assets/js/foundation.min.js"></script>
     <script type="text/javascript">
       $(document).foundation({
-        
-      });
+        tab:
+          {
+            callback : function (tab) {
+              $(document).foundation('reflow');
+            }
+          }  
+        });
     </script>
   </body>
 </html>
