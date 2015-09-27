@@ -108,7 +108,10 @@ and open the template in the editor.
   @include grid-column(8);
 }
 
-
+.survey.yes,
+.survey.no {
+  @include switch;
+}
 
 .contact.form.line .type {
   @include grid-column(4);

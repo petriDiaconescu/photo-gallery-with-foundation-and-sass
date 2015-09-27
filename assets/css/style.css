@@ -6685,6 +6685,87 @@ th.hide-for-touch {
   width: 66.6666666667%;
   float: left; }
 
+.survey.yes,
+.survey.no {
+  border: none;
+  margin-bottom: 1.5rem;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+  .survey.yes label,
+  .survey.no label {
+    background: #DDDDDD;
+    color: transparent;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 1rem;
+    position: relative;
+    text-indent: 100%;
+    width: 4rem;
+    height: 2rem;
+    transition: left 0.15s ease-out; }
+  .survey.yes input,
+  .survey.no input {
+    left: 10px;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    top: 9px; }
+    .survey.yes input + label,
+    .survey.no input + label {
+      margin-left: 0;
+      margin-right: 0; }
+  .survey.yes label:after,
+  .survey.no label:after {
+    background: #FFFFFF;
+    content: "";
+    display: block;
+    height: 1.5rem;
+    left: .25rem;
+    position: absolute;
+    top: .25rem;
+    width: 1.5rem;
+    -webkit-transition: left 0.15s ease-out;
+    -moz-transition: left 0.15s ease-out;
+    -o-transition: translate3d(0, 0, 0);
+    transition: left 0.15s ease-out;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  .survey.yes input:checked + label,
+  .survey.no input:checked + label {
+    background: #008CBA; }
+  .survey.yes input:checked + label:after,
+  .survey.no input:checked + label:after {
+    left: 2.25rem; }
+  .survey.yes label,
+  .survey.no label {
+    height: 2rem;
+    width: 4rem; }
+  .survey.yes label:after,
+  .survey.no label:after {
+    height: 1.5rem;
+    width: 1.5rem; }
+  .survey.yes input:checked + label:after,
+  .survey.no input:checked + label:after {
+    left: 2.25rem; }
+  .survey.yes label,
+  .survey.no label {
+    color: transparent;
+    background: #DDDDDD; }
+  .survey.yes label:after,
+  .survey.no label:after {
+    background: #FFFFFF; }
+  .survey.yes input:checked + label,
+  .survey.no input:checked + label {
+    background: #008CBA; }
+
 .contact.form.line .type {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
