@@ -6477,6 +6477,9 @@ th.hide-for-touch {
   .show-for-print {
     display: none !important; } }
 
+[data-clearing] li {
+  margin-right: 0; }
+
 #header,
 #main {
   margin: 0 auto;
